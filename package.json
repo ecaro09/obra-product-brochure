@@ -1,20 +1,24 @@
 {
-  "name": "obra-digital-catalog-system",
+  "name": "obra-furniture-quote",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "jspdf": "^3.0.4",
-    "react-router-dom": "^7.11.0",
-    "lucide-react": "^0.562.0",
-    "jspdf-autotable": "^5.0.2"
+    "@google/genai": "^1.31.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.556.0",
+    "motion": "^12.34.3",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "recharts": "^3.5.1",
+    "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
